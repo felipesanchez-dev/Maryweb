@@ -4,7 +4,6 @@ import { useState, useRef, useEffect } from 'react';
 import { SymbolicLogin } from '@/components/custom/symbolic-login';
 import { CoverPage } from '@/components/custom/cover-page';
 import { Chapter1ElInicio } from '@/components/custom/chapter1-el-inicio';
-import { Chapter2NuestrosMomentos } from '@/components/custom/chapter2-nuestros-momentos';
 import { Chapter3Cartas } from '@/components/custom/chapter3-cartas';
 import { Chapter4Poemas } from '@/components/custom/chapter4-poemas';
 import { Chapter5NuestroFuturo } from '@/components/custom/chapter5-nuestro-futuro';
@@ -62,9 +61,6 @@ export default function HomePage() {
         <Chapter1ElInicio />
       </section>
       
-      <section ref={chapter2Ref} id="chapter2" className="w-full scroll-mt-0 md:scroll-mt-16">
-        <Chapter2NuestrosMomentos />
-      </section>
       
       <section ref={chapter3Ref} id="chapter3" className="w-full scroll-mt-0 md:scroll-mt-16">
         <Chapter3Cartas />
@@ -77,7 +73,6 @@ export default function HomePage() {
       <section ref={chapter5Ref} id="chapter5" className="w-full scroll-mt-0 md:scroll-mt-16">
         <Chapter5NuestroFuturo onReadAgain={() => scrollToRef(coverRef)} />
       </section>
-
       {showScrollTop && (
         <Button
           onClick={() => scrollToRef(coverRef)}

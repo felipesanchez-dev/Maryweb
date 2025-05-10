@@ -17,7 +17,7 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: 'Eternal Bloom - Nuestro cuento de amor',
+  title: 'Nuestro cuento de amor',
   description: 'Una página web interactiva celebrando la historia de Pipe & Mariana.',
 };
 

@@ -13,26 +13,27 @@ import { SunflowerIcon } from '../icons/sunflower-icon';
 const letters = [
   {
     title: 'Para ti, mi amor Pipe',
-    content: `Pipe, cada día a tu lado es un regalo. Tu sonrisa ilumina mis mañanas y tu abrazo es mi refugio. Gracias por ser mi compañero, mi confidente y el amor de mi vida. Eres mi sol en días nublados y la melodía de mi corazón. Te amo más de lo que las palabras pueden expresar.`,
+    content: `Pipe, desde aquel 21 de diciembre, mi mundo cambió para siempre. Tu forma de mirarme, de entenderme y de estar ahí incluso cuando no sabía cómo pedirlo, me enseñó que el amor verdadero sí existe. Fuiste luz en mis días grises, compañía en mis batallas, y alegría en mis victorias. Gracias por creer en mí, por estar en cada paso de este viaje, y por soñar conmigo en grande. Te amo con todo mi corazón, y no hay un solo día en que no me sienta afortunada de tenerte.`,
     from: 'Mariana',
   },
   {
     title: 'Mi querida Mariana',
-    content: `Mariana, llegaste a mi vida para llenarla de colores y alegría. Tu ternura, tu fuerza y tu forma de ver el mundo me inspiran cada día. Contigo he aprendido el verdadero significado del amor. Sueño con un futuro lleno de aventuras a tu lado. Eres mi girasol, siempre buscando la luz. Te amo infinitamente.`,
+    content: `Mariana, no llegaste por casualidad; fuiste el regalo más bonito que la vida me dio. Me enamoré de tu esencia, de tu lucha, de tu forma de amar sin medidas. Aunque no siempre pensamos igual, aprendí que el amor real no busca moldear, sino acompañar. Gracias por pintar mi mundo con tulipanes y girasoles, por ser mi hogar, mi calma, y la mujer con la que quiero formar una familia. Te amo profundamente, y cada día contigo es el mejor capítulo de mi historia.`,
     from: 'Pipe',
   },
   {
     title: 'Un secreto entre nosotros',
-    content: `Recuerdo aquella tarde lluviosa, cuando compartimos nuestros miedos más profundos y nuestros sueños más locos. Ese día, supe que nuestra conexión era única. Gracias por abrirme tu corazón y permitirme ser parte de tu vida. Cada momento contigo es un tesoro.`,
+    content: `Recuerdo cuando todo comenzó… no sabíamos hasta dónde llegaríamos, pero algo dentro de nosotros decía que valdría la pena. Entre mensajes, peleas, risas y reconciliaciones, fuimos construyendo algo más fuerte que el tiempo. Hoy, después de todo lo vivido, sé que no cambiaría nada. Incluso en los días difíciles, te elegiría mil veces más. Este amor, aunque imperfecto, es nuestro. Y eso lo hace eterno.`,
     from: 'Ambos',
   },
 ];
+
 
 export function Chapter3Cartas() {
   return (
     <PageSectionWrapper className="bg-gradient-to-b from-purple-100 to-pink-100" containerClassName="max-w-3xl">
       <div className="text-center mb-12">
-        <h2 className="text-5xl font-dancing-script text-primary-foreground mb-4">Capítulo 3: Cartas desde mi Corazón</h2>
+        <h2 className="text-5xl font-dancing-script text-primary-foreground mb-4">Capítulo 2: Cartas desde mi Corazón</h2>
         <Mail className="w-16 h-16 text-accent mx-auto" />
       </div>
 

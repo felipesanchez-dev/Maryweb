@@ -39,7 +39,7 @@ export function FloatingPetals() {
   return (
     <div className="fixed inset-0 pointer-events-none overflow-hidden h-screen w-screen z-0">
       {petals.map(petal => (
-         <SunflowerIcon key={petal.id} style={petal.style} className="opacity-50" />
+          <SunflowerIcon key={petal.id} style={petal.style} className="opacity-50" />
       ))}
     </div>
   );
